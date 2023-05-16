@@ -20,6 +20,8 @@
     --inputs-modes: #A1A1AA; 
 }
 
+/* Darckmode sem uso de Javascript "has" */
+
 .darck,
 :root:has(.darck:checked) {
     --bg-color: #18181B;
@@ -128,6 +130,8 @@ input[type="radio"] {
     height: 1rem;
     border-radius: 50%;
 }
+
+/* Estratégia do "has" */
 
 input[type="radio"]:checked {
     background-color: var(--input-color);
